@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <script defer src="../NewJs/clock.js"></script>
+    <script defer src="../NewJs/greeting.js"></script>
+    <script defer src="../NewJs/quotes.js"></script>
+    <script defer src="../NewJs/img.js"></script>
+    <script defer src="../NewJs/todo.js"></script>
+    <link href="../NewCss/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Container">
+      <h2 id="clock">00:00</h2>
+      <h1 id="greeting"></h1>
+      <form id="loginForm">
+        <input
+          placeholder="What's your name?"
+          type="text"
+          maxlength="15"
+          required="true"
+        />
+        <button>log in</button>
+      </form>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+      <button id="logoutBtn">log out</button>
+      <span id="quotes"></span>
+      <span id="author"></span>
+    </div>
+  </body>
+</html>

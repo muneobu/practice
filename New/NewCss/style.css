@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+}
+.Container {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#quotes {
+  color: aliceblue;
+}
+#author {
+  color: aliceblue;
+}
